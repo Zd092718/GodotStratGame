@@ -10,11 +10,14 @@
 anchor_right = 1.0
 anchor_bottom = 1.0
 margin_top = 576.0
+__meta__ = {
+"_edit_horizontal_guides_": [  ]
+}
 
 [node name="BG" type="ColorRect" parent="."]
 anchor_right = 1.0
 anchor_bottom = 1.0
-color = Color( 0.14902, 0.14902, 0.14902, 1 )
+color = Color( 0.184314, 0.184314, 0.184314, 1 )
 
 [node name="EndTurnButton" type="Button" parent="."]
 margin_left = 1046.0
@@ -57,3 +60,47 @@ margin_left = 160.0
 margin_right = 236.0
 margin_bottom = 75.0
 icon = ExtResource( 4 )
+
+[node name="HeaderFoodMetal" type="Label" parent="."]
+margin_left = 368.0
+margin_top = 32.0
+margin_right = 450.0
+margin_bottom = 107.0
+custom_fonts/font = ExtResource( 5 )
+text = "Food:
+Metal:"
+align = 2
+valign = 1
+
+[node name="FoodMetalText" type="Label" parent="."]
+margin_left = 472.0
+margin_top = 32.0
+margin_right = 610.0
+margin_bottom = 107.0
+custom_colors/font_color = Color( 1, 0.713726, 0, 1 )
+custom_fonts/font = ExtResource( 5 )
+text = "25(+80)
+50(+5)"
+valign = 1
+
+[node name="HeaderOxyEnergy" type="Label" parent="."]
+margin_left = 608.0
+margin_top = 32.0
+margin_right = 715.0
+margin_bottom = 107.0
+custom_fonts/font = ExtResource( 5 )
+text = "Oxygen:
+Energy:"
+align = 2
+valign = 1
+
+[node name="OxyEnergyText" type="Label" parent="."]
+margin_left = 728.0
+margin_top = 32.0
+margin_right = 866.0
+margin_bottom = 107.0
+custom_colors/font_color = Color( 1, 0.713726, 0, 1 )
+custom_fonts/font = ExtResource( 5 )
+text = "25(+80)
+50(+5)"
+valign = 1
